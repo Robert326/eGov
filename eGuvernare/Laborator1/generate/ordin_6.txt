@@ -1,0 +1,27 @@
+============================================================
+                      ORDIN DE PLATA
+============================================================
+Numar: 6
+Data:  2026-10-26 17:24
+
+PLATITOR
+  Nume:      asd asd
+  CNP:       5020310046205
+  Email:     robert_bolfa@yahoo.com
+  Telefon:   0770926619
+
+BENEFICIAR
+  Denumire:  Primăria Iași (simulat)
+  IBAN:      RO63TREZ40621A3005300000
+  Banca:     Trezoreria Statului
+
+DETALII CALCUL
+  Valoare impozabila: 123123.00 lei
+  Cota:               0.12 %
+  Impozit:            147.75 lei
+  Bonificatie:        14.77 lei
+
+SUMA DE PLATA: 132.97 lei
+
+Explicatii: Impozit cladire rezidentiala an fiscal 2026, asdasd, cerere nr. 6
+============================================================

@@ -1,0 +1,27 @@
+============================================================
+                      ORDIN DE PLATA
+============================================================
+Numar: 7
+Data:  2026-10-27 13:06
+
+PLATITOR
+  Nume:      asd asd
+  CNP:       5020310046205
+  Email:     robert_bolfa@yahoo.com
+  Telefon:   0770926619
+
+BENEFICIAR
+  Denumire:  Primăria Bacău (simulat)
+  IBAN:      RO28TREZ06121A3005300000
+  Banca:     Trezoreria Statului
+
+DETALII CALCUL
+  Valoare impozabila: 12333.00 lei
+  Cota:               0.1 %
+  Impozit:            12.33 lei
+  Bonificatie:        1.23 lei
+
+SUMA DE PLATA: 11.10 lei
+
+Explicatii: Impozit cladire rezidentiala an fiscal 2026, 123, cerere nr. 7
+============================================================

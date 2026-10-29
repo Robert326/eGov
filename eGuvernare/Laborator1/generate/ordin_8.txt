@@ -1,0 +1,27 @@
+============================================================
+                      ORDIN DE PLATA
+============================================================
+Numar: 8
+Data:  2026-10-27 13:22
+
+PLATITOR
+  Nume:      Bolfa Robert
+  CNP:       5020310046205
+  Email:     robert_bolfa@yahoo.com
+  Telefon:   0770926619
+
+BENEFICIAR
+  Denumire:  Primăria Cluj-Napoca (simulat)
+  IBAN:      RO62TREZ21621A3005300000
+  Banca:     Trezoreria Statului
+
+DETALII CALCUL
+  Valoare impozabila: 100000.00 lei
+  Cota:               0.4 %
+  Impozit:            400.00 lei
+  Bonificatie:        40.00 lei
+
+SUMA DE PLATA: 360.00 lei
+
+Explicatii: Impozit cladire nerezidentiala an fiscal 2026, letea 6, cerere nr. 8
+============================================================

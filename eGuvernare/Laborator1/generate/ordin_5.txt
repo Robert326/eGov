@@ -1,0 +1,27 @@
+============================================================
+                      ORDIN DE PLATA
+============================================================
+Numar: 5
+Data:  2026-10-26 17:19
+
+PLATITOR
+  Nume:      Bolfa robert
+  CNP:       5020310046205
+  Email:     robert_bolfa@yahoo.com
+  Telefon:   0770926619
+
+BENEFICIAR
+  Denumire:  Primăria Bacău (simulat)
+  IBAN:      RO28TREZ06121A3005300000
+  Banca:     Trezoreria Statului
+
+DETALII CALCUL
+  Valoare impozabila: 123123123.00 lei
+  Cota:               0.1 %
+  Impozit:            123123.12 lei
+  Bonificatie:        12312.31 lei
+
+SUMA DE PLATA: 110810.81 lei
+
+Explicatii: Impozit cladire rezidentiala an fiscal 2027, sdasdasd, cerere nr. 5
+============================================================

@@ -1,0 +1,26 @@
+<cerere numar="7" data="2026-10-27 13:06">
+  <contribuabil>
+    <cnp>5020310046205</cnp>
+    <nume>asd</nume>
+    <prenume>asd</prenume>
+    <email>robert_bolfa@yahoo.com</email>
+    <telefon>0770926619</telefon>
+  </contribuabil>
+  <cladire>
+    <localitate>BC01</localitate>
+    <adresa>123</adresa>
+    <tip>R</tip>
+    <valoare>12333.0</valoare>
+    <an_fiscal>2026</an_fiscal>
+  </cladire>
+  <calcul>
+    <cota>0.1</cota>
+    <impozit>12.33</impozit>
+    <bonificatie>1.23</bonificatie>
+    <total>11.1</total>
+  </calcul>
+  <plata>
+    <beneficiar>Primăria Bacău (simulat)</beneficiar>
+    <iban>RO28TREZ06121A3005300000</iban>
+  </plata>
+</cerere>

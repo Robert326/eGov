@@ -1,0 +1,37 @@
+{
+  "BUC01": {
+    "nume": "București, Sector 1",
+    "beneficiar": "DGITL Sector 1 (simulat)",
+    "iban": "RO62TREZ70121A3005300000",
+    "cota_rezidentiala": 0.1,
+    "cota_nerezidentiala": 0.5
+  },
+  "CLJ01": {
+    "nume": "Cluj-Napoca",
+    "beneficiar": "Primăria Cluj-Napoca (simulat)",
+    "iban": "RO62TREZ21621A3005300000",
+    "cota_rezidentiala": 0.1,
+    "cota_nerezidentiala": 0.4
+  },
+  "IAS01": {
+    "nume": "Iași",
+    "beneficiar": "Primăria Iași (simulat)",
+    "iban": "RO63TREZ40621A3005300000",
+    "cota_rezidentiala": 0.12,
+    "cota_nerezidentiala": 0.6
+  },
+  "TIM01": {
+    "nume": "Timișoara",
+    "beneficiar": "Primăria Timișoara (simulat)",
+    "iban": "RO82TREZ62121A3005300000",
+    "cota_rezidentiala": 0.1,
+    "cota_nerezidentiala": 0.5
+  },
+  "BC01": {
+    "nume": "Bacău",
+    "beneficiar": "Primăria Bacău (simulat)",
+    "iban": "RO28TREZ06121A3005300000",
+    "cota_rezidentiala": 0.1,
+    "cota_nerezidentiala": 0.3
+  }
+}

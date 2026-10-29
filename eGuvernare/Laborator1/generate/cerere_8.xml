@@ -1,0 +1,26 @@
+<cerere numar="8" data="2026-10-27 13:22">
+  <contribuabil>
+    <cnp>5020310046205</cnp>
+    <nume>Bolfa</nume>
+    <prenume>Robert</prenume>
+    <email>robert_bolfa@yahoo.com</email>
+    <telefon>0770926619</telefon>
+  </contribuabil>
+  <cladire>
+    <localitate>CLJ01</localitate>
+    <adresa>letea 6</adresa>
+    <tip>N</tip>
+    <valoare>100000.0</valoare>
+    <an_fiscal>2026</an_fiscal>
+  </cladire>
+  <calcul>
+    <cota>0.4</cota>
+    <impozit>400.0</impozit>
+    <bonificatie>40.0</bonificatie>
+    <total>360.0</total>
+  </calcul>
+  <plata>
+    <beneficiar>Primăria Cluj-Napoca (simulat)</beneficiar>
+    <iban>RO62TREZ21621A3005300000</iban>
+  </plata>
+</cerere>

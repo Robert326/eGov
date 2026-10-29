@@ -1,0 +1,26 @@
+<cerere numar="6" data="2026-10-26 17:24">
+  <contribuabil>
+    <cnp>5020310046205</cnp>
+    <nume>asd</nume>
+    <prenume>asd</prenume>
+    <email>robert_bolfa@yahoo.com</email>
+    <telefon>0770926619</telefon>
+  </contribuabil>
+  <cladire>
+    <localitate>IAS01</localitate>
+    <adresa>asdasd</adresa>
+    <tip>R</tip>
+    <valoare>123123.0</valoare>
+    <an_fiscal>2026</an_fiscal>
+  </cladire>
+  <calcul>
+    <cota>0.12</cota>
+    <impozit>147.75</impozit>
+    <bonificatie>14.77</bonificatie>
+    <total>132.97</total>
+  </calcul>
+  <plata>
+    <beneficiar>Primăria Iași (simulat)</beneficiar>
+    <iban>RO63TREZ40621A3005300000</iban>
+  </plata>
+</cerere>

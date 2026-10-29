@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ro">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Plată Taxe</h1>
+        <form action="/trimite" method="post">
+            <fieldset>
+                <legend><strong>Contribuabil</strong></legend>
+                <label for="nume">Nume:</label>
+                <input
+                    type="text"
+                    id="nume"
+                    name="nume"
+                    pattern="[A-Za-zăâîșțĂÂÎȘȚ \-]+"
+                    title="Numele poate conține numai litere"
+                    required
+                /><br /><br />
+                <label for="prenume">Prenume:</label>
+                <input
+                    type="text"
+                    id="prenume"
+                    name="prenume"
+                    pattern="[A-Za-zăâîșțĂÂÎȘȚ \-]+"
+                    title="Numele poate conține numai litere"
+                    required
+                /><br /><br />
+                <label for="cnp">CNP:</label>
+                <input
+                    type="text"
+                    id="cnp"
+                    name="cnp"
+                    title="CNP-ul trebuie să aibă exact 13 cifre"
+                    pattern="[0-9]{13}"
+                    maxlength="13"
+                    required
+                /><span id="eroare_cnp"></span> <br /><br />
+                <label for="data_nasterii">Data nașterii:</label>
+                <input type="text" id="data_nasterii" readonly /><br /><br />
+                <label for="sex">Sex:</label>
+                <input type="text" id="sex" readonly /><br /><br />
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required /><br /><br />
+                <label for="telefon">Număr de telefon:</label>
+                <input
+                    type="tel"
+                    id="telefon"
+                    name="telefon"
+                    title="Format: 07xxxxxxxx"
+                    pattern="07[0-9]{8}"
+                    maxlength="10"
+                    required
+                /><br /><br />
+            </fieldset>
+            <fieldset>
+                <legend><strong>Clădire</strong></legend>
+                <br />
+                <label for="localitate">Alege o localitate:</label>
+                <select id="localitate" name="localitate" required>
+                    <option value="">- Alege -</option></select
+                ><br /><br />
+                <label for="beneficiar">Beneficiar:</label>
+                <input type="text" id="beneficiar" readonly /><br /><br />
+                <label for="iban">IBAN:</label>
+                <input type="text" id="iban" readonly /><br /><br />
+                <label for="adresa_cladirii">Adresa Clădirii:</label>
+                <input
+                    type="text"
+                    id="adresa_cladirii"
+                    name="adresa_cladirii"
+                    required
+                /><br /><br />
+                <label for="tip_cladire">Alege tipul clădirii:</label>
+                <select id="tip_cladire" name="tip_cladire" required>
+                    <option value="">- Alege -</option>
+                    <option value="R">Rezidențială</option>
+                    <option value="N">Nerezidențială</option></select
+                ><br /><br />
+                <label for="cota">Cotă (%)</label>
+                <input type="text" id="cota" readonly /><br /><br />
+                <label for="valoare_impozabila">Valoare impozabilă</label>
+                <input
+                    type="number"
+                    id="valoare_impozabila"
+                    name="valoare_impozabila"
+                    min="0.01"
+                    step="0.01"
+                    required
+                /><br /><br />
+                <label for="an_fiscal">An Fiscal:</label>
+                <input
+                    type="number"
+                    id="an_fiscal"
+                    name="an_fiscal"
+                    value="2026"
+                    required
+                    min="2000"
+                    step="1"
+                    max="2030"
+                />
+            </fieldset>
+            <fieldset>
+                <legend><strong>Calcul</strong></legend>
+                <input type="checkbox" id="plata" name="plata" />
+                <label for="plata">Vreau să plătesc integral până la 31 martie</label><br /><br />
+                <label for="impozit_anual">Impozit anual (lei)</label>
+                <input type="text" id="impozit_anual" readonly /><br /><br />
+                <label for="bonificatie">Bonificație (lei)</label>
+                <input type="text" id="bonificatie" readonly /><br /><br />
+                <label for="total_plata"><strong>Total Plată (lei)</strong></label>
+                <input type="text" id="total_plata" readonly /><br /><br />
+            </fieldset>
+            <input type="checkbox" id="declaratie" name="declaratie" required />
+            <label for="declaratie">Declar pe proprie răspundere că datele sunt corecte</label
+            ><br /><br />
+            <button type="submit">Trimite</button>
+        </form>
+        <script src="{{ url_for('static', filename='formular.js') }}"></script>
+    </body>
+</html>
